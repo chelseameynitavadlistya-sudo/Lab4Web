@@ -1,0 +1,287 @@
+/* Pengaturan Dasar Body & Container */
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f5f5f5;
+}
+
+#container {
+    width: 960px;
+    margin: 0 auto;
+    background-color: #fff;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+/* Header */
+header {
+    background-color: #fff;
+    padding: 20px 40px;
+}
+
+header h1 {
+    margin: 0;
+    font-size: 28px;
+    color: #666;
+}
+
+/* Navigasi */
+nav {
+    background-color: #3e73e6;
+    padding: 0 20px;
+}
+
+nav a {
+    display: inline-block;
+    color: #fff;
+    padding: 12px 20px;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 14px;
+}
+
+nav a:hover, nav a.active {
+    background-color: #2b5bc4;
+}
+
+/* Hero Panel */
+#hero {
+    background-color: #e4e4e5;
+    padding: 40px;
+    margin-bottom: 20px;
+}
+
+#hero h1 {
+    font-size: 36px;
+    color: #333;
+    margin-top: 0;
+}
+
+#hero p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 15px;
+}
+
+/* Tombol / Button */
+.btn {
+    display: inline-block;
+    padding: 8px 16px;
+    text-decoration: none;
+    border-radius: 4px;
+    font-size: 14px;
+}
+
+.btn-large {
+    background-color: #3e73e6;
+    color: #fff;
+    padding: 10px 20px;
+    font-weight: bold;
+}
+
+.btn-large:hover {
+    background-color: #2b5bc4;
+}
+
+.btn-default {
+    background-color: #3e73e6;
+    color: #fff;
+}
+
+.btn-default:hover {
+    background-color: #2b5bc4;
+}
+
+/* Wrapper Layout Utama & Sidebar */
+#wrapper {
+    overflow: hidden;
+    padding: 0 20px;
+}
+
+#main {
+    float: left;
+    width: 640px;
+}
+
+#sidebar {
+    float: right;
+    width: 260px;
+}
+
+/* 3 Kolom di Bagian Atas Main */
+.row {
+    overflow: hidden;
+    margin-bottom: 20px;
+}
+
+.box-col {
+    float: left;
+    width: 33.333%;
+    text-align: center;
+    box-sizing: border-box;
+    padding: 0 10px;
+}
+
+.image-circle {
+    border-radius: 50%;
+}
+
+.box-col h3 {
+    font-size: 18px;
+    margin: 10px 0;
+    color: #333;
+}
+
+.box-col p {
+    font-size: 13px;
+    color: #666;
+    line-height: 1.5;
+    margin-bottom: 15px;
+}
+
+/* Garis Divider */
+.divider {
+    border: 0;
+    border-top: 1px solid #ddd;
+    margin: 30px 0;
+}
+
+/* Styling Artikel / Featurette */
+.entry {
+    overflow: hidden;
+}
+
+.entry h2 {
+    font-size: 24px;
+    color: #333;
+    margin-top: 0;
+    margin-bottom: 15px;
+}
+
+.entry-img {
+    float: left;
+    margin-right: 20px;
+}
+
+.entry-img.right-img {
+    float: right;
+    margin-right: 0;
+    margin-left: 20px;
+}
+
+.entry p {
+    color: #555;
+    line-height: 1.6;
+    font-size: 14px;
+}
+
+/* Sidebar Widget */
+.widget-box {
+    margin-bottom: 25px;
+    border: 1px solid #ddd;
+}
+
+.widget-box .title {
+    background-color: #3e73e6;
+    color: #fff;
+    font-size: 16px;
+    margin: 0;
+    padding: 10px 15px;
+}
+
+.widget-box ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+}
+
+.widget-box ul li {
+    border-bottom: 1px solid #ddd;
+}
+
+.widget-box ul li:last-child {
+    border-bottom: none;
+}
+
+.widget-box ul li a {
+    display: block;
+    padding: 10px 15px;
+    color: #3e73e6;
+    text-decoration: none;
+    font-size: 14px;
+}
+
+.widget-box ul li a:hover {
+    background-color: #f9f9f9;
+}
+
+.widget-box p {
+    padding: 15px;
+    margin: 0;
+    font-size: 13px;
+    color: #555;
+    line-height: 1.5;
+}
+
+/* Footer */
+footer {
+    clear: both;
+    background-color: #222;
+    color: #fff;
+    padding: 20px;
+    margin-top: 30px;
+    font-size: 13px;
+}
+/* Styling Formulir Kontak */
+.contact-form {
+    margin-top: 20px;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.form-group label {
+    display: block;
+    font-weight: bold;
+    color: #333;
+    margin-bottom: 8px;
+    font-size: 14px;
+}
+
+.form-group input[type="text"],
+.form-group input[type="email"],
+.form-group textarea {
+    width: 100%;
+    padding: 10px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+    box-sizing: border-box;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #333;
+}
+
+.form-group input:focus,
+.form-group textarea:focus {
+    border-color: #3e73e6;
+    outline: none;
+    box-shadow: 0 0 5px rgba(62, 115, 230, 0.3);
+}
+/* Styling Tambahan untuk Halaman About / Portfolio */
+.portfolio-item {
+    margin-bottom: 20px;
+}
+
+.portfolio-item h3 {
+    font-size: 18px;
+    color: #3e73e6;
+    margin-bottom: 5px;
+}
+
+.portfolio-item p {
+    color: #555;
+    font-size: 14px;
+    margin: 0;
+    line-height: 1.5;
+}

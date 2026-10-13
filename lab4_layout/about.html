@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>About - Layout Sederhana</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div id="container">
+
+    <header>
+        <h1>Layout Sederhana</h1>
+    </header>
+
+    <nav>
+        <a href="home.html">Home</a>
+        <a href="artikel.html">Artikel</a>
+        <a href="about.html" class="active">About</a>
+        <a href="kontak.html">Kontak</a>
+    </nav>
+
+    <!-- Hero Panel untuk Halaman About -->
+    <section id="hero">
+        <h1>Tentang Saya</h1>
+        <p>Halaman ini berisi informasi profil singkat serta portofolio proyek-proyek yang telah dikerjakan.</p>
+    </section>
+
+    <section id="wrapper">
+
+        <section id="main">
+            <!-- Deskripsi Diri -->
+            <article class="entry">
+                <h2>Profil Singkat</h2>
+                <div class="entry-img">
+                    <img src="photo.jpg" alt="Foto Profil" width="150">
+                </div>
+                <p>Halo! Nama saya Chelsea Meynita , mahasiswi Teknik Informatika di Universitas Pelita Bangsa. Saya sedang mempelajari dasar-dasar pengembangan web, mulai dari struktur HTML, styling menggunakan CSS, hingga pengaturan layout web yang responsif dan rapi.</p>
+            </article>
+
+            <hr class="divider">
+
+            <!-- Portfolio -->
+            <article class="entry">
+                <h2>Portfolio</h2>
+                
+                <div class="portfolio-item">
+                    <h3>Project 1</h3>
+                    <p>Membuat halaman website sederhana menggunakan HTML.</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Project 2</h3>
+                    <p>Mengatur layout website menggunakan CSS.</p>
+                </div>
+
+                <div class="portfolio-item">
+                    <h3>Project 3</h3>
+                    <p>Membuat desain halaman website yang responsif.</p>
+                </div>
+            </article>
+        </section>
+
+        <aside id="sidebar">
+            <div class="widget-box">
+                <h3 class="title">Navigasi Lain</h3>
+                <ul>
+                    <li><a href="home.html">Kembali ke Home</a></li>
+                    <li><a href="kontak.html">Hubungi Kami</a></li>
+                </ul>
+            </div>
+
+            <div class="widget-box">
+                <h3 class="title">Keahlian</h3>
+                <p>HTML5, CSS3, Dasar Pemrograman Web, Desain Layout, dan Penggunaan Git/GitHub.</p>
+            </div>
+        </aside>
+
+    </section>
+
+    <footer>
+        <p>&copy; 2021 - Universitas Pelita Bangsa</p>
+    </footer>
+
+</div>
+
+</body>
+</html>
